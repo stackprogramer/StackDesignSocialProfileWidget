@@ -24,6 +24,9 @@ Upload the stack design social share  plugin to your blog, Activate it,in settin
 
 == Changelog ==
 
+=1.1=
+*Release Date -July 18, 2018*
+*Fixed some initial errors release
 
 =1.0=
 *Release Date -July 10, 2018*

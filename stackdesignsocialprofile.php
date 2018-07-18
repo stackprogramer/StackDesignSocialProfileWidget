@@ -3,7 +3,7 @@
 *Plugin Name: Stack Design Social Profile Widget
 *Plugin URI: https://blog.stackprogramer.xyz/
 *Description: Links to Author social media profile
-* Version: 1.0 
+* Version: 1.1 
 *Author: stackprogramer
 *Author URI: https://blog.stackprogramer.xyz/
 */

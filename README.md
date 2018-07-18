@@ -36,6 +36,8 @@ GNU General Public License for more details.
 
 
 ## Changelog
+* v1.1 released: July 18, 2018
+Fixed some initial errors release
 * v1 released: July 13, 2018
 Initial release
 
