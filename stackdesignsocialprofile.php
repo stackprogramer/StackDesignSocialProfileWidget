@@ -3,15 +3,17 @@
 *Plugin Name: Stack Design Social Profile Widget
 *Plugin URI: https://blog.stackprogramer.xyz/
 *Description: Links to Author social media profile
-* Version: 1.1 
+* Version: 1.3
 *Author: stackprogramer
 *Author URI: https://blog.stackprogramer.xyz/
+* Text Domain: StackDesignSocialProfileWidget
+* Domain Path: /languages
 */
   class StackDesign_Social_Profile extends WP_Widget {
 
 		  function __construct() {
-		  parent::__construct('StackDesign_Social_Profile', __('Stack Design Social Networks Profiles', 'stackdesign'), // Name
-		            array('description', __('Links to Author social media profile', 'stackdesign'),) );
+		  parent::__construct('StackDesign_Social_Profile', __('Stack Design Social Networks Profiles', 'StackDesignSocialProfileWidget'), // Name
+		            array('description', __('Links to Author social media profile', 'StackDesignSocialProfileWidget'),) );
 		    }
 
 	      public function form($instance) {
@@ -33,59 +35,59 @@
         ?>
         
         <p>
-            <label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title:'); ?></label>
+            <label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title:','StackDesignSocialProfileWidget'); ?></label>
             <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo esc_attr($title); ?>">
         </p>
 
        
 
         <p>
-            <label for="<?php echo $this->get_field_id('aparat'); ?>"><?php _e('Aparat:'); ?></label>
+            <label for="<?php echo $this->get_field_id('aparat'); ?>"><?php _e('Aparat:','StackDesignSocialProfileWidget'); ?></label>
             <input class="widefat" id="<?php echo $this->get_field_id('aparat'); ?>" name="<?php echo $this->get_field_name('aparat'); ?>" type="text" value="<?php echo esc_attr($aparat); ?>">
         </p>
  
         <p>
-            <label for="<?php echo $this->get_field_id('cloob'); ?>"><?php _e('Cloob:'); ?></label>
+            <label for="<?php echo $this->get_field_id('cloob'); ?>"><?php _e('Cloob:','StackDesignSocialProfileWidget'); ?></label>
             <input class="widefat" id="<?php echo $this->get_field_id('cloob'); ?>" name="<?php echo $this->get_field_name('cloob'); ?>" type="text" value="<?php echo esc_attr($cloob); ?>">
         </p>
  
          <p>
-            <label for="<?php echo $this->get_field_id('facenama'); ?>"><?php _e('Facenama:'); ?></label>
+            <label for="<?php echo $this->get_field_id('facenama'); ?>"><?php _e('Facenama:','StackDesignSocialProfileWidget'); ?></label>
             <input class="widefat" id="<?php echo $this->get_field_id('facenama'); ?>" name="<?php echo $this->get_field_name('facenama'); ?>" type="text" value="<?php echo esc_attr($facenama); ?>">
         </p>
  
         <p>
-            <label for="<?php echo $this->get_field_id('hammihan'); ?>"><?php _e('Hammihan:'); ?></label>
+            <label for="<?php echo $this->get_field_id('hammihan'); ?>"><?php _e('Hammihan:','StackDesignSocialProfileWidget'); ?></label>
             <input class="widefat" id="<?php echo $this->get_field_id('hammihan'); ?>" name="<?php echo $this->get_field_name('hammihan'); ?>" type="text" value="<?php echo esc_attr($hammihan); ?>">
         </p>
 
         <p>
-            <label for="<?php echo $this->get_field_id('youtube'); ?>"><?php _e('Youtube:'); ?></label>
+            <label for="<?php echo $this->get_field_id('youtube'); ?>"><?php _e('Youtube:','StackDesignSocialProfileWidget'); ?></label>
             <input class="widefat" id="<?php echo $this->get_field_id('youtube'); ?>" name="<?php echo $this->get_field_name('youtube'); ?>" type="text" value="<?php echo esc_attr($youtube); ?>">
         </p>
  
         <p>
-            <label for="<?php echo $this->get_field_id('twitter'); ?>"><?php _e('Twitter:'); ?></label>
+            <label for="<?php echo $this->get_field_id('twitter'); ?>"><?php _e('Twitter:','StackDesignSocialProfileWidget'); ?></label>
             <input class="widefat" id="<?php echo $this->get_field_id('twitter'); ?>" name="<?php echo $this->get_field_name('twitter'); ?>" type="text" value="<?php echo esc_attr($twitter); ?>">
         </p>
  
         <p>
-            <label for="<?php echo $this->get_field_id('google'); ?>"><?php _e('Google+:'); ?></label>
+            <label for="<?php echo $this->get_field_id('google'); ?>"><?php _e('Google+:','StackDesignSocialProfileWidget'); ?></label>
             <input class="widefat" id="<?php echo $this->get_field_id('google'); ?>" name="<?php echo $this->get_field_name('google'); ?>" type="text" value="<?php echo esc_attr($google); ?>">
         </p>
  
         <p>
-            <label for="<?php echo $this->get_field_id('linkedin'); ?>"><?php _e('Linkedin:'); ?></label>
+            <label for="<?php echo $this->get_field_id('linkedin'); ?>"><?php _e('Linkedin:','StackDesignSocialProfileWidget'); ?></label>
             <input class="widefat" id="<?php echo $this->get_field_id('linkedin'); ?>" name="<?php echo $this->get_field_name('linkedin'); ?>" type="text" value="<?php echo esc_attr($linkedin); ?>">
         </p>
  
         <p>
-            <label for="<?php echo $this->get_field_id('facebook'); ?>"><?php _e('Facebook:'); ?></label>
+            <label for="<?php echo $this->get_field_id('facebook'); ?>"><?php _e('Facebook:','StackDesignSocialProfileWidget'); ?></label>
             <input class="widefat" id="<?php echo $this->get_field_id('facebook'); ?>" name="<?php echo $this->get_field_name('facebook'); ?>" type="text" value="<?php echo esc_attr($facebook); ?>">
         </p>
       
         <p>
-            <label for="<?php echo $this->get_field_id('rss'); ?>"><?php _e('Rss:'); ?></label>
+            <label for="<?php echo $this->get_field_id('rss'); ?>"><?php _e('Rss:','StackDesignSocialProfileWidget'); ?></label>
             <input class="widefat" id="<?php echo $this->get_field_id('rss'); ?>" name="<?php echo $this->get_field_name('rss'); ?>" type="text" value="<?php echo esc_attr($rss); ?>">
         </p>
  
@@ -131,16 +133,16 @@
 
 		 
 		// social profile link
-            $aparat_profile = '<a  href="' . $aparat . '"><img title="'.__('Aparat').'" class="click-icons" alt="'.__('Twitter:').'" src="'.plugins_url('img/aparat.png', __FILE__).'" ></a>';
-            $cloob_profile = '<a  href="' . $cloob . '"><img   title="'.__('Cloob').'" class="click-icons" alt="'.__('Cloob:').'" src="'.plugins_url('img/cloob.png', __FILE__).'" ></a>';
-            $facenama_profile = '<a  href="' . $facenama . '"><img  title="'.__('Facenama').'" class="click-icons"  alt="'.__('Facenama:').'" src="'.plugins_url('img/facenama.png', __FILE__).'" ></a>';
-            $hammihan_profile = '<a  href="' . $hammihan . '"><img  title="'.__('Hammihan').'" class="click-icons"  alt="'.__('Hammihan:').'" src="'.plugins_url('img/hammihan.png', __FILE__).'" ></a>';
-            $youtube_profile = '<a  href="' . $youtube . '"><img   title="'.__('Youtube').'" class="click-icons"  alt="'.__('Youtube:').'" src="'.plugins_url('img/youtube.png', __FILE__).'" ></a>';
-	        $twitter_profile = '<a  href="' . $twitter . '"><img  title="'.__('Twitter').'" class="click-icons"  alt="'.__('Twitter:').'" src="'.plugins_url('img/twitter.png', __FILE__).'" ></a>';
-	        $google_profile = '<a  href="' . $google . '"><img   title="'.__('Google+').'" class="click-icons"  alt="'.__('Google+:').'" src="'.plugins_url('img/google.png', __FILE__).'" ></a>';
-	        $linkedin_profile = '<a  href="' . $linkedin . '"><img   title="'.__('Linkedin').'" class="click-icons"  alt="'.__('Linkedin:').'" src="'.plugins_url('img/linkedin.png', __FILE__).'" ></a>';
-            $facebook_profile = '<a  href="' . $facebook . '"> <img  title="'.__('Facebook').'" class="click-icons"  alt="'.__('Facebook:').'" src="'.plugins_url('img/facebook.png', __FILE__).'" ></a>';
-            $rss_profile = '<a  href="' . $rss. '"> <img   title="'.__('Rss').'" class="click-icons"  alt="'.__('Rss:').'" src="'.plugins_url('img/rss.png', __FILE__).'" ></a>';
+            $aparat_profile = '<a  href="' . $aparat . '"><img title="'.__('Aparat','StackDesignSocialProfileWidget').'" class="click-icons" alt="'.__('Twitter:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/aparat.png', __FILE__).'" ></a>';
+            $cloob_profile = '<a  href="' . $cloob . '"><img   title="'.__('Cloob','StackDesignSocialProfileWidget').'" class="click-icons" alt="'.__('Cloob:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/cloob.png', __FILE__).'" ></a>';
+            $facenama_profile = '<a  href="' . $facenama . '"><img  title="'.__('Facenama','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Facenama:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/facenama.png', __FILE__).'" ></a>';
+            $hammihan_profile = '<a  href="' . $hammihan . '"><img  title="'.__('Hammihan','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Hammihan:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/hammihan.png', __FILE__).'" ></a>';
+            $youtube_profile = '<a  href="' . $youtube . '"><img   title="'.__('Youtube','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Youtube:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/youtube.png', __FILE__).'" ></a>';
+	        $twitter_profile = '<a  href="' . $twitter . '"><img  title="'.__('Twitter','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Twitter:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/twitter.png', __FILE__).'" ></a>';
+	        $google_profile = '<a  href="' . $google . '"><img   title="'.__('Google+','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Google+:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/google.png', __FILE__).'" ></a>';
+	        $linkedin_profile = '<a  href="' . $linkedin . '"><img   title="'.__('Linkedin','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Linkedin:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/linkedin.png', __FILE__).'" ></a>';
+            $facebook_profile = '<a  href="' . $facebook . '"> <img  title="'.__('Facebook','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Facebook:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/facebook.png', __FILE__).'" ></a>';
+            $rss_profile = '<a  href="' . $rss. '"> <img   title="'.__('Rss','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Rss:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/rss.png', __FILE__).'" ></a>';
 	 
 		echo $args['before_widget'];
 		if (!empty($title)) {
@@ -180,3 +182,10 @@
         wp_enqueue_style('social-profile-widget', plugins_url('stackdesign-social-profile-widget.css', __FILE__));
         }
         add_action('wp_enqueue_scripts', 'stackdesign_social_profile_widget_css');
+
+
+        // for plugin translation
+		function StackDesignSocialProfileWidget_load_textdomain() {
+		        load_plugin_textdomain( 'StackDesignSocialProfileWidget', false, basename( dirname( __FILE__ ) ) . '/languages' ); 
+		}
+		add_action( 'init', 'StackDesignSocialProfileWidget_load_textdomain' );

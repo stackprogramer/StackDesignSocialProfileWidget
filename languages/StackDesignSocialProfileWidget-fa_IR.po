@@ -1,0 +1,122 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: StackDesignSocialProfileWidget\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-26 15:05+0000\n"
+"PO-Revision-Date: 2018-07-26 15:07+0000\n"
+"Last-Translator: stackprogramer <stackprogramer@gmail.com>\n"
+"Language-Team: Persian\n"
+"Language: fa-IR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: socialbuttons.php:4
+msgid "Share on:"
+msgstr "به اشتراک گذاشتن در:"
+
+#: socialbuttons.php:14
+msgid "Cloob"
+msgstr "کلوب"
+
+#: socialbuttons.php:14
+msgid "Cloob:"
+msgstr "کلوب:"
+
+#: socialbuttons.php:20
+msgid "Facenama"
+msgstr "فیس نما"
+
+#: socialbuttons.php:20
+msgid "Facenama:"
+msgstr "فیس نما:"
+
+#: socialbuttons.php:26
+msgid "Hammihan"
+msgstr "هم میهن"
+
+#: socialbuttons.php:26
+msgid "Hammihan:"
+msgstr "هم میهن:"
+
+#: socialbuttons.php:33
+msgid "Twitter"
+msgstr "توتیتر"
+
+#: socialbuttons.php:33
+msgid "Twitter:"
+msgstr "توتیتر:"
+
+#: socialbuttons.php:39
+msgid "Linkedin"
+msgstr "لینکدین"
+
+#: socialbuttons.php:39
+msgid "Linkedin:"
+msgstr "لینکدین:"
+
+#: socialbuttons.php:46
+msgid "Reddit"
+msgstr "ردیت"
+
+#: socialbuttons.php:46
+msgid "Reddit:"
+msgstr "ردیت:"
+
+#: socialbuttons.php:54
+msgid "Facebook"
+msgstr "فیسبوک"
+
+#: socialbuttons.php:54
+msgid "Facebook:"
+msgstr "فیسبوک:"
+
+#: socialbuttons.php:54
+msgid "Aparat"
+msgstr "آپارات"
+
+#: socialbuttons.php:54
+msgid "Aparat:"
+msgstr "آپارات:"
+
+#: socialbuttons.php:54
+msgid "Youtube"
+msgstr "یوتیوب"
+
+#: socialbuttons.php:54
+msgid "Youtube:"
+msgstr "یوتیوب:"
+
+#: socialbuttons.php:54
+msgid "Rss"
+msgstr "آر اس اس"
+
+#: socialbuttons.php:54
+msgid "Rss:"
+msgstr "آر اس اس"
+
+#: socialbuttons.php:54
+msgid "Title:"
+msgstr "عنوان:"
+
+
+
+#. Name of the plugin
+msgid "Stack Design Social Networks Profiles"
+msgstr " پروفایل های شبکه های اجتماعی طراحی استک"
+
+#. Description of the plugin
+msgid "Links to Author social media profile"
+msgstr "لینک پروفایل شبکه های اجتماعی نویسنده"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://blog.stackprogramer.xyz/"
+msgstr "https://blog.stackprogramer.xyz"
+
+#. Author of the plugin
+msgid "stackprogramer"
+msgstr "استک پروگرمر"
+
