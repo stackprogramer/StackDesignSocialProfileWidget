@@ -24,6 +24,10 @@ Upload the stack design social share  plugin to your blog, Activate it,in settin
 
 == Changelog ==
 
+=1.4=
+*Released: August 9, 2018
+*Changed Icons to Rounded Images
+
 =1.3=
 *Release Date -August 6, 2018*
 *Adding translation language files
