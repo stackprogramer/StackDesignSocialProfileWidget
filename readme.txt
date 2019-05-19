@@ -23,6 +23,10 @@ Upload the stack design social share  plugin to your blog, Activate it,in settin
 
 
 == Changelog ==
+=1.5=
+*Released: May 19, 2019
+*I added nofollow to links
+
 
 =1.4=
 *Released: August 9, 2018

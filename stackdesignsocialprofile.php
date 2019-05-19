@@ -3,7 +3,7 @@
 *Plugin Name: Stack Design Social Profile Widget
 *Plugin URI: https://blog.stackprogramer.xyz/
 *Description: Links to Author social media profile
-* Version: 1.4
+* Version: 1.5
 *Author: stackprogramer
 *Author URI: https://blog.stackprogramer.xyz/
 * Text Domain: StackDesignSocialProfileWidget
@@ -133,16 +133,17 @@
 
 		 
 		// social profile link
-            $aparat_profile = '<a  href="' . $aparat . '"><img title="'.__('Aparat','StackDesignSocialProfileWidget').'" class="click-icons" alt="'.__('Twitter:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/aparat.png', __FILE__).'" ></a>';
-            $cloob_profile = '<a  href="' . $cloob . '"><img   title="'.__('Cloob','StackDesignSocialProfileWidget').'" class="click-icons" alt="'.__('Cloob:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/cloob.png', __FILE__).'" ></a>';
-            $facenama_profile = '<a  href="' . $facenama . '"><img  title="'.__('Facenama','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Facenama:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/facenama.png', __FILE__).'" ></a>';
-            $hammihan_profile = '<a  href="' . $hammihan . '"><img  title="'.__('Hammihan','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Hammihan:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/hammihan.png', __FILE__).'" ></a>';
-            $youtube_profile = '<a  href="' . $youtube . '"><img   title="'.__('Youtube','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Youtube:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/youtube.png', __FILE__).'" ></a>';
-	        $twitter_profile = '<a  href="' . $twitter . '"><img  title="'.__('Twitter','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Twitter:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/twitter.png', __FILE__).'" ></a>';
-	        $google_profile = '<a  href="' . $google . '"><img   title="'.__('Google+','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Google+:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/google.png', __FILE__).'" ></a>';
-	        $linkedin_profile = '<a  href="' . $linkedin . '"><img   title="'.__('Linkedin','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Linkedin:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/linkedin.png', __FILE__).'" ></a>';
-            $facebook_profile = '<a  href="' . $facebook . '"> <img  title="'.__('Facebook','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Facebook:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/facebook.png', __FILE__).'" ></a>';
-            $rss_profile = '<a  href="' . $rss. '"> <img   title="'.__('Rss','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Rss:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/rss.png', __FILE__).'" ></a>';
+             $aparat_profile = '<a  href="' . $aparat . '" rel="nofollow" ><img title="'.__('Aparat','StackDesignSocialProfileWidget').'" class="click-icons" alt="'.__('Twitter:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/aparat.png', __FILE__).'" ></a>';
+            $cloob_profile = '<a  href="' . $cloob . '" rel="nofollow" ><img   title="'.__('Cloob','StackDesignSocialProfileWidget').'" class="click-icons" alt="'.__('Cloob:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/cloob.png', __FILE__).'" ></a>';
+            $facenama_profile = '<a  href="' . $facenama . '" rel="nofollow" ><img  title="'.__('Facenama','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Facenama:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/facenama.png', __FILE__).'" ></a>';
+            $hammihan_profile = '<a  href="' . $hammihan . '" rel="nofollow" ><img  title="'.__('Hammihan','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Hammihan:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/hammihan.png', __FILE__).'" ></a>';
+            $youtube_profile = '<a  href="' . $youtube . '" rel="nofollow" ><img   title="'.__('Youtube','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Youtube:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/youtube.png', __FILE__).'" ></a>';
+            $twitter_profile = '<a  href="' . $twitter . '" rel="nofollow" ><img  title="'.__('Twitter','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Twitter:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/twitter.png', __FILE__).'" ></a>';
+            $google_profile = '<a  href="' . $google . '" rel="nofollow" ><img   title="'.__('Google+','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Google+:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/google.png', __FILE__).'" ></a>';
+            $linkedin_profile = '<a  href="' . $linkedin . '" rel="nofollow" ><img   title="'.__('Linkedin','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Linkedin:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/linkedin.png', __FILE__).'" ></a>';
+            $facebook_profile = '<a  href="' . $facebook . '" rel="nofollow" > <img  title="'.__('Facebook','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Facebook:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/facebook.png', __FILE__).'" ></a>';
+            $rss_profile = '<a  href="' . $rss. '" rel="nofollow" > <img   title="'.__('Rss','StackDesignSocialProfileWidget').'" class="click-icons"  alt="'.__('Rss:','StackDesignSocialProfileWidget').'" src="'.plugins_url('img/rss.png', __FILE__).'" ></a>';
+     
 	 
 		echo $args['before_widget'];
 		if (!empty($title)) {

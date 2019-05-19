@@ -36,6 +36,8 @@ GNU General Public License for more details.
 
 
 ## Changelog
+* v1.5 released: May 19, 2019
+I added nofollow to links
 * v1.4 released: August 9, 2018
 Changed Icons to Rounded Images
 * v1.3 released: August 6, 2018
