@@ -43,52 +43,52 @@
 
         <p>
             <label for="<?php echo $this->get_field_id('aparat'); ?>"><?php _e('Aparat:','StackDesignSocialProfileWidget'); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id('aparat'); ?>" name="<?php echo $this->get_field_name('aparat'); ?>" type="text" value="<?php echo esc_attr($aparat); ?>">
+            <input class="widefat" id="<?php echo $this->get_field_id('aparat'); ?>" name="<?php echo $this->get_field_name('aparat'); ?>" type="text" value="<?php  if(isset($aparat)){echo esc_attr($aparat);} ?>">
         </p>
  
         <p>
             <label for="<?php echo $this->get_field_id('cloob'); ?>"><?php _e('Cloob:','StackDesignSocialProfileWidget'); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id('cloob'); ?>" name="<?php echo $this->get_field_name('cloob'); ?>" type="text" value="<?php echo esc_attr($cloob); ?>">
+            <input class="widefat" id="<?php echo $this->get_field_id('cloob'); ?>" name="<?php echo $this->get_field_name('cloob'); ?>" type="text" value="<?php  if(isset($cloob)){echo esc_attr($cloob);} ?>">
         </p>
  
          <p>
             <label for="<?php echo $this->get_field_id('facenama'); ?>"><?php _e('Facenama:','StackDesignSocialProfileWidget'); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id('facenama'); ?>" name="<?php echo $this->get_field_name('facenama'); ?>" type="text" value="<?php echo esc_attr($facenama); ?>">
+            <input class="widefat" id="<?php echo $this->get_field_id('facenama'); ?>" name="<?php echo $this->get_field_name('facenama'); ?>" type="text" value="<?php  if(isset($facenama)){echo esc_attr($facenama);} ?>">
         </p>
  
         <p>
             <label for="<?php echo $this->get_field_id('hammihan'); ?>"><?php _e('Hammihan:','StackDesignSocialProfileWidget'); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id('hammihan'); ?>" name="<?php echo $this->get_field_name('hammihan'); ?>" type="text" value="<?php echo esc_attr($hammihan); ?>">
+            <input class="widefat" id="<?php echo $this->get_field_id('hammihan'); ?>" name="<?php echo $this->get_field_name('hammihan'); ?>" type="text" value="<?php  if(isset($hammihan)){echo esc_attr($hammihan);} ?>">
         </p>
 
         <p>
             <label for="<?php echo $this->get_field_id('youtube'); ?>"><?php _e('Youtube:','StackDesignSocialProfileWidget'); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id('youtube'); ?>" name="<?php echo $this->get_field_name('youtube'); ?>" type="text" value="<?php echo esc_attr($youtube); ?>">
+            <input class="widefat" id="<?php echo $this->get_field_id('youtube'); ?>" name="<?php echo $this->get_field_name('youtube'); ?>" type="text" value="<?php  if(isset($youtube)){echo esc_attr($youtube);} ?>">
         </p>
  
         <p>
             <label for="<?php echo $this->get_field_id('twitter'); ?>"><?php _e('Twitter:','StackDesignSocialProfileWidget'); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id('twitter'); ?>" name="<?php echo $this->get_field_name('twitter'); ?>" type="text" value="<?php echo esc_attr($twitter); ?>">
+            <input class="widefat" id="<?php echo $this->get_field_id('twitter'); ?>" name="<?php echo $this->get_field_name('twitter'); ?>" type="text" value="<?php  if(isset($twitter)){echo esc_attr($twitter);} ?>">
         </p>
  
         <p>
             <label for="<?php echo $this->get_field_id('google'); ?>"><?php _e('Google+:','StackDesignSocialProfileWidget'); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id('google'); ?>" name="<?php echo $this->get_field_name('google'); ?>" type="text" value="<?php echo esc_attr($google); ?>">
+            <input class="widefat" id="<?php echo $this->get_field_id('google'); ?>" name="<?php echo $this->get_field_name('google'); ?>" type="text" value="<?php  if(isset($google)){echo esc_attr($google);} ?>">
         </p>
  
         <p>
             <label for="<?php echo $this->get_field_id('linkedin'); ?>"><?php _e('Linkedin:','StackDesignSocialProfileWidget'); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id('linkedin'); ?>" name="<?php echo $this->get_field_name('linkedin'); ?>" type="text" value="<?php echo esc_attr($linkedin); ?>">
+            <input class="widefat" id="<?php echo $this->get_field_id('linkedin'); ?>" name="<?php echo $this->get_field_name('linkedin'); ?>" type="text" value="<?php  if(isset($linkedin)){echo esc_attr($linkedin);} ?>">
         </p>
  
         <p>
             <label for="<?php echo $this->get_field_id('facebook'); ?>"><?php _e('Facebook:','StackDesignSocialProfileWidget'); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id('facebook'); ?>" name="<?php echo $this->get_field_name('facebook'); ?>" type="text" value="<?php echo esc_attr($facebook); ?>">
+            <input class="widefat" id="<?php echo $this->get_field_id('facebook'); ?>" name="<?php echo $this->get_field_name('facebook'); ?>" type="text" value="<?php  if(isset($facebook)){echo esc_attr($facebook);} ?>">
         </p>
       
         <p>
             <label for="<?php echo $this->get_field_id('rss'); ?>"><?php _e('Rss:','StackDesignSocialProfileWidget'); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id('rss'); ?>" name="<?php echo $this->get_field_name('rss'); ?>" type="text" value="<?php echo esc_attr($rss); ?>">
+            <input class="widefat" id="<?php echo $this->get_field_id('rss'); ?>" name="<?php echo $this->get_field_name('rss'); ?>" type="text" value="<?php  if(isset($rss)){echo esc_attr($rss);} ?>">
         </p>
  
         <?php
@@ -161,8 +161,7 @@
 		        echo (!empty($linkedin) ) ? $linkedin_profile : null;
                 echo (!empty($facebook) ) ? $facebook_profile : null;
                 echo (!empty($rss) ) ? $rss_profile : null;
-
-		        echo '</div><br><br>';
+		        echo '</div>';
 		        echo $args['after_widget'];
 		}
 
