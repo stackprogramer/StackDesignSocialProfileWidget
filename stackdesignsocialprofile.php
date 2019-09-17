@@ -147,21 +147,21 @@
 	 
 		echo $args['before_widget'];
 		if (!empty($title)) {
-		echo $args['before_title'] . $title . $args['after_title'];
+		echo "\r\n"."\t\t\t\t\t\t\t".$args['before_title'] ."\r\n"."\t\t\t\t\t\t\t". $title ."\r\n"."\t\t\t\t\t\t\t". $args['after_title'];
 		}
 		 
-		        echo '<div class="social-icons">';
-                echo (!empty($aparat) ) ? $aparat_profile : null;
-                echo (!empty($cloob) ) ? $cloob_profile : null;
-                echo (!empty($facenama) ) ? $facenama_profile : null;
-                echo (!empty($hammihan) ) ? $hammihan_profile : null;
-                echo (!empty($youtube) ) ? $youtube_profile : null;
-		        echo (!empty($twitter) ) ? $twitter_profile : null;
-		        echo (!empty($google) ) ? $google_profile : null;
-		        echo (!empty($linkedin) ) ? $linkedin_profile : null;
-                echo (!empty($facebook) ) ? $facebook_profile : null;
-                echo (!empty($rss) ) ? $rss_profile : null;
-		        echo '</div>';
+		        echo "\r\n"."\t\t\t\t\t\t\t".'<div class="social-icons">';
+                echo (!empty($aparat) ) ? "\r\n"."\t\t\t\t\t\t\t\t\t\t".$aparat_profile : null;
+                echo (!empty($cloob) ) ? "\r\n"."\t\t\t\t\t\t\t\t\t\t".$cloob_profile : null;
+                echo (!empty($facenama) )? "\r\n"."\t\t\t\t\t\t\t\t\t\t".$facenama_profile : null;
+                echo (!empty($hammihan) ) ? "\r\n"."\t\t\t\t\t\t\t\t\t\t".$hammihan_profile : null;
+                echo (!empty($youtube) ) ? "\r\n"."\t\t\t\t\t\t\t\t\t\t".$youtube_profile : null;
+		        echo (!empty($twitter) ) ? "\r\n"."\t\t\t\t\t\t\t\t\t\t".$twitter_profile : null;
+		        echo (!empty($google) ) ? "\r\n"."\t\t\t\t\t\t\t\t\t\t".$google_profile : null;
+		        echo (!empty($linkedin) ) ? "\r\n"."\t\t\t\t\t\t\t\t\t\t".$linkedin_profile : null;
+                echo (!empty($facebook) ) ? "\r\n"."\t\t\t\t\t\t\t\t\t\t".$facebook_profile : null;
+                echo (!empty($rss) ) ? "\r\n"."\t\t\t\t\t\t\t\t\t\t".$rss_profile : null;
+		        echo "\r\n"."\t\t\t\t\t\t\t".'</div>';
 		        echo $args['after_widget'];
 		}
 
